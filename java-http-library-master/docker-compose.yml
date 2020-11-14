@@ -1,0 +1,9 @@
+version: "2"
+services:
+  application:
+    image: maven:3.5.0-jdk-8-alpine
+    container_name: lib.generic.http
+    working_dir: /usr/src/lib.generic.http
+    volumes:
+      - ./:/usr/src/lib.generic.util
+    command: sh -c "cp settings.xml /usr/share/maven/conf/settings.xml && mvn deploy"

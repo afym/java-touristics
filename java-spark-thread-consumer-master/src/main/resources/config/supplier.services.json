@@ -1,0 +1,7 @@
+{
+  "services" : {
+    "HTP" : {"host" : "providerB-service", "port" : "30000"},
+    "EZL" : {"host" : "providerA-service", "port" : "30001"},
+    "FTV" : {"host" : "providerC-service", "port" : "30002"}
+  }
+}

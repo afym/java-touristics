@@ -1,0 +1,36 @@
+{
+  "nationality": "136",
+  "language": "es",
+  "token": "5lji26m6j9n5sap765v6lq4q1q8uk6pp",
+  "destination": 415492,
+  "checkin": "31-08-2017",
+  "checkout": "01-09-2017",
+  "nights": "1",
+  "rooms": "2",
+  "listrooms": [
+    {
+      "count": "1",
+      "adults": "2",
+      "children": "1",
+      "childrenages": [
+        {
+          "age": "2"
+        }
+      ]
+    },
+    {
+      "count": "1",
+      "adults": "1",
+      "children": "2",
+      "childrenages": [
+        {
+          "age": "5"
+        },
+        {
+          "age": "4"
+        }
+      ]
+    }
+  ],
+  "onlyavailable": false
+}
